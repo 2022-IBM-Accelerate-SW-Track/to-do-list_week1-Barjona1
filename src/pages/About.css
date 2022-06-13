@@ -1,4 +1,4 @@
-.split {
+/*.split {
   height: 100%;
   width: 50%;
   position: fixed;
@@ -39,4 +39,44 @@
 .profile_image {
   width: 500px;
   height: auto;
+}
+*/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6063a3d215f6a02cdb644b3a/1617325363393-HVOHLEJ251CYLYNAGLIS/cb.2021.index_Artboard+3.png?format=1000w');
+  height: 100vh;
+  margin-top: 55px;
+}
+
+.right {
+  right: 0;
+  background-color: ghostwhite;
+  height: 100vh;
+  margin-top: 55px;
+
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 50%;
+  border-radius: 50%;
 }
